@@ -41,6 +41,11 @@ function resultout(){
     p.innerHTML="player 2 is the winner"
     resultoutstyle()
   }
+  if (end9 == 13){
+    let p = document.querySelector(`p`)
+    p.innerHTML="draw"
+    resultoutstyle()
+  }
   }
 
 
